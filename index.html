@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-T6LMQZ3');
-    </script>
-    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <title>Johnny Alves</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site Professional de Johnny Alves. Desenvolvedor Web, Mobile e Programador Freelancer">
     <meta name="keywords" content="johnny, alves, desenvolvedor web, desenvolvedor rails, desenvolvedor ionic, programador freelancer">
     <meta name="author" content="Johnny Alves">
+
+    <script>
+        let script = document.createElement('script');
+        script.text = `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-T6LMQZ3');
+        `;
+        document.getElementsByTagName('head')[0].appendChild(script);
+
+        let iframe = document.createElement('iframe');
+        iframe.src = "https://www.googletagmanager.com/ns.html?id=GTM-T6LMQZ3";
+        iframe.height = 0;
+        iframe.width = 0;
+        iframe.style = "display:none;visibility:hidden";
+        
+        let noscript = document.createElement('noscript');
+        noscript.appendChild(iframe)
+        document.getElementsByTagName('body')[0].appendChild(noscript);
+    </script>
 
     <!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
@@ -38,11 +51,6 @@
 </head>
 
 <body id="homepage">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6LMQZ3"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <div id="wrapper">
 
         <!-- header begin -->
